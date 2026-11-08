@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "stritdeck",
+  "version": "${version}",
+  "name": "Stritdeck",
+  "description": "Reskins Minecraft's menus (title screen, pause menu, ...) as a PS5-style card/tile deck UI.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/stritdeck/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.stritdeck.Stritdeck"],
+    "client": ["com.stritdeck.StritdeckClient"]
+  },
+  "mixins": ["stritdeck.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
