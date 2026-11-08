@@ -2,7 +2,7 @@ package com.stritdeck.ui;
 
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.widget.ClickableWidget;
-import net.minecraft.client.gui.narration.NarrationMessageBuilder;
+import net.minecraft.client.gui.screen.narration.NarrationMessageBuilder;
 import net.minecraft.text.Text;
 
 /**
@@ -91,4 +91,4 @@ public class CardWidget extends ClickableWidget {
     protected void appendClickableNarrations(NarrationMessageBuilder builder) {
         this.appendDefaultNarrations(builder);
     }
-  }
+}
